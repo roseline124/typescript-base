@@ -6,6 +6,12 @@ Make typescript development envrionment easily.
 <br>
 <br>
 
+### default settings
+- javascript version : es5
+- installed packages : typescript, tslint, tsc-watch
+
+<br>
+<br>
 
 ### run these commands 
 - `npm install`
