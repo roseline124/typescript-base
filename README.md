@@ -3,6 +3,7 @@ Make typescript development envrionment easily.
 
 (타입스크립트 개발 환경 쉽게 구축하기 위한 저장소입니다.)
 
+\
 
 ### it was made by this process
 You don't need to run the commands below. 
@@ -11,14 +12,22 @@ Just understand how this envrionment was made.
 (아래 커맨드를 입력할 필요 없습니다.
 그저 환경이 어떻게 구축되는지 이해만 하세요.)
 
+\
+
 **1. create 'package.json' file**
 `npm init -y`
+
+\
 
 **2. create 'package-lock.json' file and 'node_modules' folder**
 `npm i typescript`
 
+\
+
 **3. create 'tsconfig.json' file**
 `tsc --init`
+
+\
 
 **4. install tslint for coding convention**
 - `npm i tslint`
@@ -30,12 +39,15 @@ If you need some coding rules, then add rules to `"rules": {}` in tslint.json fi
 (tslint 설치는 꼭 필요한 건 아니지만, 코딩 규칙을 유지하고 협업하는 데 있어 좋습니다.
 만약 문법 규칙을 추가하려면 tslint.json 파일에 있는 `"rules": {}`에 규칙을 추가해주세요.)
 
+\
 
 **5. set compile option in tsconfig.json**
 - `"include": ["src/**/*.ts"],`
 - `"exclude": ["node_modules"],`
 - `"sourceMap": true,` in compileOptions
 - `"outDir": "./dist",` in compileOptions
+
+\
 
 **6. create dist and src folder**
 - create dist and src folder.
@@ -48,6 +60,7 @@ and after compiled, the results(js files and map file) of compiling typescript f
 
 타입스크립트 파일이 컴파일된 후에, 컴파일된 결과(자바스크립트 파일, map 파일)는 dist 폴더에 위치하게 됩니다.)
 
+\
 
 **6. watch mode will make project update**
 - `npm add tsc-watch --dev`
@@ -58,3 +71,5 @@ It makes you comfortable. **What you only need to do is typing "npm start" or "y
 
 (파일 내용을 바꿀 때마다 타입스크립트 파일이 자동으로 컴파일됩니다. 
 일일이 컴파일할 필요 없이, 초반에 npm start나 yarn start로 watch 모드를 켜면 됩니다.)
+
+\
