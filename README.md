@@ -3,6 +3,7 @@ Make typescript development envrionment easily.
 
 (타입스크립트 개발 환경 쉽게 구축하기 위한 저장소입니다.)
 
+
 ### it was made by this process
 You don't need to run the commands below. 
 Just understand how this envrionment was made. 
@@ -52,5 +53,8 @@ and after compiled, the results(js files and map file) of compiling typescript f
 - `npm add tsc-watch --dev`
 - `"start": "tsc-watch --onSuccess \"node dist/index.js\""` in "scripts" of package.json
 
-tsc-watch will compile typescript file automatically whenenver you save new changes. 
+typescript files will be compiled automatically through watch mode whenenver you save new changes. 
 It makes you comfortable. **What you only need to do is typing "npm start" or "yarn start" at the first time**.
+
+(파일 내용을 바꿀 때마다 타입스크립트 파일이 자동으로 컴파일됩니다. 
+일일이 컴파일할 필요 없이, 초반에 npm start나 yarn start로 watch 모드를 켜면 됩니다.)
