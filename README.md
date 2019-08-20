@@ -4,6 +4,15 @@ Make typescript development envrionment easily.
 (초보자를 위한, 타입스크립트 개발 환경 쉽게 구축하기 위한 저장소입니다.)
 
 <br>
+<br>
+
+
+### run these commands 
+- `npm install`
+- `npm start`
+
+<br>
+<br>
 
 ### it was made by this process
 You don't need to run the commands below. 
@@ -28,6 +37,8 @@ Just understand how this envrionment was made.
 - `tsc --init`
 
 <br>
+<br>
+
 
 **4. install tslint for coding convention**
 - `npm i tslint`
