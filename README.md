@@ -1,7 +1,7 @@
-### typescript-base
+### typescript-base for novice
 Make typescript development envrionment easily. 
 
-(타입스크립트 개발 환경 쉽게 구축하기 위한 저장소입니다.)
+(초보자를 위한, 타입스크립트 개발 환경 쉽게 구축하기 위한 저장소입니다.)
 
 <br>
 
@@ -15,17 +15,17 @@ Just understand how this envrionment was made.
 <br>
 
 **1. create 'package.json' file**
-`npm init -y`
+- `npm init -y`
 
 <br>
 
 **2. create 'package-lock.json' file and 'node_modules' folder**
-`npm i typescript`
+- `npm i typescript`
 
 <br>
 
 **3. create 'tsconfig.json' file**
-`tsc --init`
+- `tsc --init`
 
 <br>
 
