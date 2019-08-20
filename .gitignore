@@ -1,0 +1,8 @@
+# Output
+/dist
+
+# VSCode
+.vscode/*
+
+# Dependency 
+node_modules/
