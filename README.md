@@ -1,7 +1,9 @@
-### typescript-base for novice
+### typescript-base for novice (with react / testframework:jest, enzyme)
 Make typescript development envrionment easily. 
+\+ test environment for react was built up with jest, enzyme.
 
-(초보자를 위한, 타입스크립트 개발 환경 쉽게 구축하기 위한 저장소입니다.)
+(초보자를 위한, 타입스크립트 개발 환경 쉽게 구축하기 위한 저장소입니다.
+\+ react를 위한 jest, enzyme 테스트 환경이 구축되었습니다. )
 
 <br>
 <br>
